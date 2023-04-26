@@ -27,6 +27,11 @@ jobs:
       run: |
             cd src
             javac -cp . Main.java
+            
+    - name: Execute Java program
+      run: | 
+            cd src
+            java Main
 
 
 
