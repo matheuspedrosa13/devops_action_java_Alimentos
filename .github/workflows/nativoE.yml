@@ -24,5 +24,6 @@ jobs:
         distribution: 'temurin'
         
     - name: Compilar o Java
-      run: javac src/Carne.java src/Legume.java src/Main.java
+      run: javac src/com/example/Main.java src/com/example/Carne.java src/com/example/Legume.java
+
 
