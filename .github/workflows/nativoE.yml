@@ -24,7 +24,7 @@ jobs:
         distribution: 'temurin'
         
     - name: Compilar o Java
-      run: javac -cp src src/Main.java
+      run: javac -cp src Main.java
 
 
 
